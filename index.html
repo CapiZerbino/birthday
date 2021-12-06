@@ -25,8 +25,8 @@
 </style>
 </head>
 <body>
-    <iframe  src="renxi.mp3" allow="autoplay ; fullscreen" style="display: none;">
-        <audio autoplay="true" controls>
+    <iframe  src="renxi.mp3"  style="display: none;" id="audioID">
+        <audio autoplay controls>
             <source src="renxi.mp3" type="audio/mp3" />
           </audio>
     </iframe>
@@ -217,6 +217,7 @@
 
         runAsync().start();
     })();
+    var myaudio = document.getElementById("audioID").autoplay = true;
     </script>
 </body>
 </html>
