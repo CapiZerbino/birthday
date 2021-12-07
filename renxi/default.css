@@ -30,14 +30,14 @@ a {
 }
 #code {
   display: none;
-  font-size: 28px;
-  letter-spacing: 2px;
+  font-size: 32px;
+  letter-spacing: 3px;
 }
 #clock-box {
   position: absolute;
   left: 60px;
   top: 550px;
-  font-size: 28px;
+  font-size: 30px;
   display: none;
   font-family: 'Roboto', sans-serif;
 }
